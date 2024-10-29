@@ -1,0 +1,868 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/avatar.png">
+  <link rel="icon" href="/img/avatar.jpg">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="猫子戏">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="Typecho 系统的 Joe 主题美化说明：生命不息，折腾不止，哎，就是玩儿…… 本站环境：PHP：8.0.2 Mysql：8.4.2Typecho：1.2.1正式版Joe：7.7.1其他版本的PHP、Typecho和Joe不确定其可行性，请自行测试~ 基础设置这个其实不用写，安装Joe主题后去配置网站基础设置就好了。 开启gzip压缩打开typecho目录下的 index.php，并在开头添加">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Typecho 系统的 Joe 主题美化">
+<meta property="og:url" content="http://example.com/2024/10/30/Typecho%20%E7%B3%BB%E7%BB%9F%E7%9A%84%20Joe%20%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/index.html">
+<meta property="og:site_name" content="帽子-戏法">
+<meta property="og:description" content="Typecho 系统的 Joe 主题美化说明：生命不息，折腾不止，哎，就是玩儿…… 本站环境：PHP：8.0.2 Mysql：8.4.2Typecho：1.2.1正式版Joe：7.7.1其他版本的PHP、Typecho和Joe不确定其可行性，请自行测试~ 基础设置这个其实不用写，安装Joe主题后去配置网站基础设置就好了。 开启gzip压缩打开typecho目录下的 index.php，并在开头添加">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-10-29T20:50:00.000Z">
+<meta property="article:modified_time" content="2024-10-29T20:52:46.816Z">
+<meta property="article:author" content="猫子戏">
+<meta property="article:tag" content="typecho">
+<meta property="article:tag" content="Joe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>Typecho 系统的 Joe 主题美化 - 帽子-戏法</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":true,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>帽子-戏法</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/categories/App%E4%B8%8EPC" target="_self">
+                    
+                    <span>App与PC</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/categories/%E5%B0%8F%E8%AF%B4%E6%BC%AB%E7%94%BB" target="_self">
+                    
+                    <span>小说漫画</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/categories/%E4%B8%BB%E9%A2%98%E5%92%8C%E7%BE%8E%E5%8C%96" target="_self">
+                    
+                    <span>主题和美化</span>
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-books"></i>
+                <span>文档</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://hexo.fluid-dev.com/docs/guide/#%E9%85%8D%E7%BD%AE" target="_self">
+                    
+                    <span>Fluid主题文档</span>
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/" target="_self">
+                <i class="iconfont icon-link-fill"></i>
+                <span>友链</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="Typecho 系统的 Joe 主题美化"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-10-30 04:50" pubdate>
+          2024年10月30日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          7k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          59 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Typecho 系统的 Joe 主题美化</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="Typecho-系统的-Joe-主题美化"><a href="#Typecho-系统的-Joe-主题美化" class="headerlink" title="Typecho 系统的 Joe 主题美化"></a>Typecho 系统的 Joe 主题美化</h1><h2 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h2><p>生命不息，折腾不止，哎，就是玩儿……</p>
+<h2 id="本站环境："><a href="#本站环境：" class="headerlink" title="本站环境："></a>本站环境：</h2><p>PHP：8.0.2</p>
+<p>Mysql：8.4.2<br>Typecho：1.2.1正式版<br>Joe：7.7.1<br>其他版本的PHP、Typecho和Joe不确定其可行性，请自行测试~</p>
+<h2 id="基础设置"><a href="#基础设置" class="headerlink" title="基础设置"></a>基础设置</h2><p>这个其实不用写，安装Joe主题后去配置网站基础设置就好了。</p>
+<h3 id="开启gzip压缩"><a href="#开启gzip压缩" class="headerlink" title="开启gzip压缩"></a>开启gzip压缩</h3><p>打开typecho目录下的 index.php，并在开头添加<br>​<code>ob_start(&#39;ob_gzhandler&#39;);</code>​</p>
+<h3 id="robots-txt"><a href="#robots-txt" class="headerlink" title="robots.txt"></a>robots.txt</h3><p>在网站根目录下创建并设置 robots.txt,方便搜索引擎爬虫爬取:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs java">User-agent: *<br>Allow: <span class="hljs-comment">/*.html$</span><br><span class="hljs-comment">Allow: /usr</span><br><span class="hljs-comment">Allow: /*.png$</span><br><span class="hljs-comment">Allow: /*.jpg$</span><br><span class="hljs-comment">Allow: /*.jepg$</span><br><span class="hljs-comment">Allow: /*.gif$</span><br><span class="hljs-comment">Allow: /*.bmp$</span><br><span class="hljs-comment">Disallow: /admin/</span><br><span class="hljs-comment">Disallow: /install/</span><br><span class="hljs-comment">Disallow: /var/</span><br><span class="hljs-comment">Disallow: /config.inc.php</span><br><span class="hljs-comment">Disallow: /install.php</span><br><span class="hljs-comment">Disallow: /.js</span><br><span class="hljs-comment">Disallow: /.css</span><br><span class="hljs-comment">Disallow: /feed</span><br><span class="hljs-comment">Sitmap: 你的域名/sitemap.xml</span><br></code></pre></td></tr></table></figure>
+
+<p>可借助 你的域名&#x2F;robots.txt 查看是否设置成功。之后在百度收录平台完成 robots.txt 的更新  </p>
+<h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><h3 id="网站主题各种颜色修改"><a href="#网站主题各种颜色修改" class="headerlink" title="网站主题各种颜色修改"></a>网站主题各种颜色修改</h3><p>位置：主题后台设置-全局设置-自定义CSS：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">body</span> &#123;<br>    <span class="hljs-attr">--theme</span>: <span class="hljs-number">#000000</span>;<br>    <span class="hljs-attr">--background</span>: <span class="hljs-number">#ffffff</span>;<br>    <span class="hljs-attr">--main</span>: <span class="hljs-number">#303133</span>;<br>    <span class="hljs-attr">--routine</span>: <span class="hljs-number">#606266</span>;<br>    <span class="hljs-attr">--minor</span>: <span class="hljs-number">#909399</span>;<br>    <span class="hljs-attr">--seat</span>: <span class="hljs-number">#c0c4cc</span>;<br>    <span class="hljs-attr">--classA</span>: <span class="hljs-number">#dcdfe6</span>;<br>    <span class="hljs-attr">--classB</span>: <span class="hljs-number">#e4e7ed</span>;<br>    <span class="hljs-attr">--classC</span>: <span class="hljs-number">#ebeef5</span>;<br>    <span class="hljs-attr">--classD</span>: <span class="hljs-number">#f2f6fc</span>;<br>    <span class="hljs-attr">--radius-wrap</span>: <span class="hljs-number">10px</span>;<br>    <span class="hljs-attr">--radius-inner</span>: <span class="hljs-number">15px</span>;<br>    <span class="hljs-attr">--text-shadow</span>: <span class="hljs-number">0</span> <span class="hljs-number">1px</span> <span class="hljs-number">2px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.25</span>);<br>    <span class="hljs-attr">--box-shadow</span>: <span class="hljs-number">0px</span> <span class="hljs-number">0px</span> <span class="hljs-number">20px</span> -<span class="hljs-number">5px</span> <span class="hljs-built_in">rgba</span>(<span class="hljs-number">158</span>, <span class="hljs-number">158</span>, <span class="hljs-number">158</span>, <span class="hljs-number">0.22</span>);<br>&#125;<br><br>说明：<br><span class="hljs-attr">--theme</span><br>主题颜色，用于修改整个网站的主题色彩，冒号后面的是颜色的色彩值，这个色彩值可以用常见的颜色格式。<br><span class="hljs-attr">--background</span><br>主体卡片背景颜色，调整透明度的话，可以填写 rgba 值，例如半透明：rgba(<span class="hljs-number">255</span>,<span class="hljs-number">255</span>,<span class="hljs-number">255</span>,<span class="hljs-number">0.5</span>)<br><span class="hljs-attr">--main</span><br>文字的颜色，颜色最深的<br><span class="hljs-attr">--routine</span><br>文字的颜色，颜色稍微次于上面那个<br><span class="hljs-attr">--minor</span><br>文字的颜色，颜色稍微次于上面那个<br><span class="hljs-attr">--seat</span><br>文字的颜色，颜色稍微次于上面那个<br><span class="hljs-attr">--classA</span><br>横线、分割线用的颜色，颜色最深的<br><span class="hljs-attr">--classB</span><br>横线、分割线用的颜色，颜色稍微次于上面那个<br><span class="hljs-attr">--classC</span><br>横线、分割线用的颜色，颜色稍微次于上面那个<br><span class="hljs-attr">--classD</span><br>横线、分割线用的颜色，颜色稍微次于上面那个<br><span class="hljs-attr">--radius-wrap</span><br>外层包裹的圆角度数，如果不需要圆角，可以写<span class="hljs-number">0px</span><br><span class="hljs-attr">--radius-inner</span><br>里层包裹的圆角度数，如果不需要圆角，可以写<span class="hljs-number">0px</span><br><span class="hljs-attr">--text-shadow</span><br>文章标题的字体阴影，只在文章详情页用到，区别不大<br><span class="hljs-attr">--box-shadow</span><br>主体卡片阴影<br></code></pre></td></tr></table></figure>
+
+<h3 id="右上角搜索框文字修改"><a href="#右上角搜索框文字修改" class="headerlink" title="右上角搜索框文字修改"></a>右上角搜索框文字修改</h3><p>修改文件，在主题目录Joe&#x2F;public&#x2F;header.php中，大概139行：<br>可将Search修改为任意字，比如“搜索”<br>大概138行：可修改默认显示字体，即可将搜索框中“请输入关键字…”修改为任意字。</p>
+<h3 id="头像呼吸灯"><a href="#头像呼吸灯" class="headerlink" title="头像呼吸灯"></a>头像呼吸灯</h3><p>在主题后台设置-全局设置-自定义CSS里添加：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">/*头像呼吸光环和鼠标悬停旋转放大*/</span><br>.avatar &#123;<br> border-radius: <span class="hljs-number">50</span>%;<br> animation: light 4s ease-in-out infinite;<br> transition: <span class="hljs-number">0.</span>5s;<br>&#125;<br>.avatar:hover &#123;<br>transform: scale(<span class="hljs-number">1.15</span>) rotate(720deg);<br>&#125;<br><span class="hljs-meta">@keyframes</span> light &#123;<br> <span class="hljs-number">0</span>%&#123;box-shadow: <span class="hljs-number">0</span> <span class="hljs-number">0</span> 4px #f00;&#125;<br> <span class="hljs-number">25</span>%&#123;box-shadow: <span class="hljs-number">0</span> <span class="hljs-number">0</span> 16px #0f0;&#125; <br> <span class="hljs-number">50</span>%&#123;box-shadow: <span class="hljs-number">0</span> <span class="hljs-number">0</span> 4px #<span class="hljs-number">00f</span>;&#125;<br> <span class="hljs-number">75</span>%&#123;box-shadow: <span class="hljs-number">0</span> <span class="hljs-number">0</span> 16px #0f0;&#125; <br> <span class="hljs-number">100</span>%&#123;box-shadow: <span class="hljs-number">0</span> <span class="hljs-number">0</span> 4px #f00;&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>‍</p>
+<h3 id="文章目录树"><a href="#文章目录树" class="headerlink" title="文章目录树"></a>文章目录树</h3><p>目前目录树的结构有很多，比如添加在页面左侧隐藏式的，或者是添加在文章左侧的。<br>这里采用的是添加在右侧栏当中的，随文章置顶的：  </p>
+<p>首先，在public&#x2F;aside.php文件中，添加如下内容，可以在作者卡片之后添加，不过具体想摆放的位置看自己的设计，当前设计是放在作者卡片之后。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs php">&lt;!--  仅在文章生效，如果需要页面，下面第一行判断加上 || <span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">is</span>(<span class="hljs-string">&#x27;page&#x27;</span>)--&gt;<br>      <span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">is</span>(<span class="hljs-string">&#x27;post&#x27;</span>)) : <span class="hljs-meta">?&gt;</span><br>          &lt;section <span class="hljs-class"><span class="hljs-keyword">class</span>=&quot;<span class="hljs-title">joe_aside__item</span> <span class="hljs-title">catalogue</span>&quot;&gt;</span><br><span class="hljs-class">              &lt;<span class="hljs-title">div</span> <span class="hljs-title">class</span>=&quot;<span class="hljs-title">joe_aside__item</span>-<span class="hljs-title">title</span>&quot;&gt;</span><br><span class="hljs-class">                  &lt;<span class="hljs-title">svg</span> <span class="hljs-title">class</span>=&quot;<span class="hljs-title">icon</span>&quot; <span class="hljs-title">viewBox</span>=&quot;0 0 1024 1024&quot; <span class="hljs-title">version</span>=&quot;1.1&quot; <span class="hljs-title">xmlns</span>=&quot;<span class="hljs-title">http</span>://<span class="hljs-title">www</span>.<span class="hljs-title">w3</span>.<span class="hljs-title">org</span>/2000/<span class="hljs-title">svg</span>&quot;</span><br><span class="hljs-class">                       <span class="hljs-title">p</span>-<span class="hljs-title">id</span>=&quot;2084&quot;</span><br><span class="hljs-class">                       <span class="hljs-title">width</span>=&quot;18&quot; <span class="hljs-title">height</span>=&quot;18&quot;&gt;</span><br><span class="hljs-class">                      &lt;<span class="hljs-title">path</span> <span class="hljs-title">d</span>=&quot;<span class="hljs-title">M640</span> 192<span class="hljs-title">H224c</span>-17.7 0-32-14.3-32-32<span class="hljs-title">s14</span>.3-32 32-32<span class="hljs-title">h416c17</span>.7 0 32 14.3 32 32<span class="hljs-title">s</span>-14.3 32-32 32<span class="hljs-title">zM960</span> 544<span class="hljs-title">H224c</span>-17.7 0-32-14.3-32-32<span class="hljs-title">s14</span>.3-32 32-32<span class="hljs-title">h736c17</span>.7 0 32 14.3 32 32<span class="hljs-title">s</span>-14.3 32-32 32<span class="hljs-title">zM640</span> 896<span class="hljs-title">H224c</span>-17.7 0-32-14.3-32-32<span class="hljs-title">s14</span>.3-32 32-32<span class="hljs-title">h416c17</span>.7 0 32 14.3 32 32<span class="hljs-title">s</span>-14.3 32-32 32<span class="hljs-title">zM96</span> 192<span class="hljs-title">H64c</span>-17.7 0-32-14.3-32-32<span class="hljs-title">s14</span>.3-32 32-32<span class="hljs-title">h32c17</span>.7 0 32 14.3 32 32<span class="hljs-title">s</span>-14.3 32-32 32<span class="hljs-title">zM96</span> 544<span class="hljs-title">H64c</span>-17.7 0-32-14.3-32-32<span class="hljs-title">s14</span>.3-32 32-32<span class="hljs-title">h32c17</span>.7 0 32 14.3 32 32<span class="hljs-title">s</span>-14.3 32-32 32<span class="hljs-title">zM96</span> 896<span class="hljs-title">H64c</span>-17.7 0-32-14.3-32-32<span class="hljs-title">s14</span>.3-32 32-32<span class="hljs-title">h32c17</span>.7 0 32 14.3 32 32<span class="hljs-title">s</span>-14.3 32-32 32<span class="hljs-title">z</span>&quot;</span><br><span class="hljs-class">                            <span class="hljs-title">p</span>-<span class="hljs-title">id</span>=&quot;2085&quot;&gt;&lt;/<span class="hljs-title">path</span>&gt;</span><br><span class="hljs-class">                  &lt;/<span class="hljs-title">svg</span>&gt;</span><br><span class="hljs-class">                  &lt;<span class="hljs-title">span</span> <span class="hljs-title">class</span>=&quot;<span class="hljs-title">text</span>&quot;&gt;目录&lt;/<span class="hljs-title">span</span>&gt;</span><br><span class="hljs-class">                  &lt;<span class="hljs-title">span</span> <span class="hljs-title">class</span>=&quot;<span class="hljs-title">line</span>&quot;&gt;&lt;/<span class="hljs-title">span</span>&gt;</span><br><span class="hljs-class">              &lt;/<span class="hljs-title">div</span>&gt;</span><br><span class="hljs-class">              &lt;<span class="hljs-title">div</span> <span class="hljs-title">class</span>=&quot;<span class="hljs-title">joe_aside__item</span>-<span class="hljs-title">contain</span>&quot;&gt;</span><br><span class="hljs-class">                  &lt;<span class="hljs-title">ul</span> <span class="hljs-title">class</span>=&quot;<span class="hljs-title">catalogue</span>-<span class="hljs-title">items</span>&quot;&gt;</span><br><span class="hljs-class">                  &lt;/<span class="hljs-title">ul</span>&gt;</span><br><span class="hljs-class">              &lt;/<span class="hljs-title">div</span>&gt;</span><br><span class="hljs-class">          &lt;/<span class="hljs-title">section</span>&gt;</span><br><span class="hljs-class">      &lt;?<span class="hljs-title">php</span> <span class="hljs-title">endif</span>; ?&gt;</span><br></code></pre></td></tr></table></figure>
+
+<p>在主题后台设置-全局设置-自定义JS中：添加如下内容，或者你也可以加在assets&#x2F;js&#x2F;joe.global.js文件中，记得将joe.global.min.js也同步更新下，如果你使用的是joe.global.js那就不用管了</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br></pre></td><td class="code"><pre><code class="hljs java">function <span class="hljs-title function_">get_catalogs</span><span class="hljs-params">(article_content)</span> &#123;<br>        <span class="hljs-type">const</span> <span class="hljs-variable">titleTag</span> <span class="hljs-operator">=</span> [<span class="hljs-string">&quot;H1&quot;</span>, <span class="hljs-string">&quot;H2&quot;</span>, <span class="hljs-string">&quot;H3&quot;</span>];<br>        <span class="hljs-type">let</span> <span class="hljs-variable">titles</span> <span class="hljs-operator">=</span> [];<br>        article_content.childNodes.forEach((e, index) =&gt; &#123;<br>            <span class="hljs-type">const</span> <span class="hljs-variable">id</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;header-&quot;</span> + index;<br>            <span class="hljs-keyword">if</span> (titleTag.includes(e.nodeName)) &#123;<br>                titles.push(&#123;<br>                    id: id,<br>                    text: e.textContent,<br>                    level: Number(e.nodeName.substring(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>))<br>                &#125;);<br>                e.setAttribute(<span class="hljs-string">&quot;id&quot;</span>, id);<br>            &#125;<br>        &#125;);<br>        <span class="hljs-keyword">return</span> titles;<br>    &#125;<br><br>    <span class="hljs-comment">// 找到目录容器</span><br>    article_content = document.querySelector(<span class="hljs-string">&#x27;.joe_detail__article&#x27;</span>);<br>    <span class="hljs-keyword">if</span> (article_content) &#123;<br>        <span class="hljs-type">var</span> <span class="hljs-variable">catalog</span> <span class="hljs-operator">=</span> get_catalogs(article_content);<br>        <span class="hljs-keyword">if</span> (catalog.length == <span class="hljs-number">0</span>) &#123;<br>            <span class="hljs-comment">// 无目录，隐藏</span><br>            $(<span class="hljs-string">&#x27;.catalogue&#x27;</span>).hide();<br>        &#125; <span class="hljs-keyword">else</span> &#123;<br>            <span class="hljs-type">let</span> <span class="hljs-variable">catalogue</span> <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;&#x27;</span>;<br>            <span class="hljs-keyword">for</span> (<span class="hljs-type">let</span> <span class="hljs-variable">i</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>; i &lt; catalog.length; i++) &#123;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">node</span> <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;&lt;li class=&quot;catalogue-item&quot;&gt;&lt;a href=&quot;javascript:;&quot; id=&quot;to-&#x27;</span> + catalog[i].id + <span class="hljs-string">&#x27;&quot; to=&quot;&#x27;</span> + catalog[i].id + <span class="hljs-string">&#x27;&quot; title=&quot;&#x27;</span> + catalog[i].text + <span class="hljs-string">&#x27;&quot;&gt;&#x27;</span> + catalog[i].text + <span class="hljs-string">&#x27;&lt;/a&gt;&#x27;</span>;<br>                <span class="hljs-keyword">if</span> (i == catalog.length - <span class="hljs-number">1</span>) &#123;<br>                    catalogue += node + <span class="hljs-string">&#x27;&lt;/li&gt;&#x27;</span><br>                &#125; <span class="hljs-keyword">else</span> &#123;<br>                    <span class="hljs-keyword">if</span> (catalog[i + <span class="hljs-number">1</span>].level == catalog[i].level) &#123;<br>                        catalogue += node + <span class="hljs-string">&#x27;&lt;/li&gt;&#x27;</span>;<br>                    &#125; <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (catalog[i + <span class="hljs-number">1</span>].level &gt; catalog[i].level) &#123;<br>                        catalogue += (catalog[i + <span class="hljs-number">1</span>].level &gt; <span class="hljs-number">1</span>) ? node + <span class="hljs-string">&#x27;&lt;ul class=&quot;level-&#x27;</span> + catalog[i + <span class="hljs-number">1</span>].level + <span class="hljs-string">&#x27;&quot;&gt;&#x27;</span> : node + <span class="hljs-string">&#x27;&lt;/li&gt;&#x27;</span>;<br>                    &#125; <span class="hljs-keyword">else</span> &#123;<br>                        <span class="hljs-keyword">if</span> (catalog[i + <span class="hljs-number">1</span>].level - catalog[i].level == -<span class="hljs-number">2</span>) &#123;<br>                            catalogue += i &gt; <span class="hljs-number">1</span> ? node + <span class="hljs-string">&#x27;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&#x27;</span> : node + <span class="hljs-string">&#x27;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&#x27;</span>;<br>                        &#125; <span class="hljs-keyword">else</span> &#123;<br>                            catalogue += i &gt; <span class="hljs-number">1</span> ? node + <span class="hljs-string">&#x27;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&#x27;</span> : node + <span class="hljs-string">&#x27;&lt;/li&gt;&#x27;</span>;<br>                        &#125;<br><br>                    &#125;<br>                &#125;<br>            &#125;<br>            document.querySelector(<span class="hljs-string">&#x27;.catalogue-items&#x27;</span>).innerHTML = catalogue;<br>            $(<span class="hljs-string">&#x27;.catalogue-item &gt; a&#x27;</span>).on(<span class="hljs-string">&#x27;mouseenter&#x27;</span>, function () &#123;<br>                $(<span class="hljs-built_in">this</span>).parent().addClass(<span class="hljs-string">&#x27;_active&#x27;</span>);<br>            &#125;);<br>            $(<span class="hljs-string">&#x27;.catalogue-item &gt; a&#x27;</span>).on(<span class="hljs-string">&#x27;mouseleave&#x27;</span>, function () &#123;<br>                $(<span class="hljs-built_in">this</span>).parent().removeClass(<span class="hljs-string">&#x27;_active&#x27;</span>);<br>            &#125;);<br>            <span class="hljs-comment">// 根据目录定位到标题</span><br>            $(<span class="hljs-string">&#x27;.catalogue-item &gt; a&#x27;</span>).on(<span class="hljs-string">&#x27;click&#x27;</span>, function () &#123;<br>                document.removeEventListener(<span class="hljs-string">&quot;scroll&quot;</span>, autoActive);<br>                $(<span class="hljs-string">&#x27;.catalogue-item&#x27;</span>).removeClass(<span class="hljs-string">&#x27;active&#x27;</span>);<br>                $(<span class="hljs-built_in">this</span>).parent().addClass(<span class="hljs-string">&#x27;active&#x27;</span>);<br>                <span class="hljs-type">let</span> <span class="hljs-variable">aim</span> <span class="hljs-operator">=</span> document.querySelector(<span class="hljs-string">&#x27;#&#x27;</span> + $(<span class="hljs-built_in">this</span>).attr(<span class="hljs-string">&#x27;to&#x27;</span>));<br>                <span class="hljs-type">let</span> <span class="hljs-variable">aim_top</span> <span class="hljs-operator">=</span> aim.offsetTop;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">aim_h</span> <span class="hljs-operator">=</span> aim.clientHeight;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">above_h</span> <span class="hljs-operator">=</span> document.querySelector(<span class="hljs-string">&#x27;.joe_header__above&#x27;</span>).clientHeight;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">below_h</span> <span class="hljs-operator">=</span> document.querySelector(<span class="hljs-string">&#x27;.joe_header__below&#x27;</span>).clientHeight;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">offset</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">case1</span> <span class="hljs-operator">=</span> !document.querySelector(<span class="hljs-string">&#x27;.joe_header__above&#x27;</span>).className.includes(<span class="hljs-string">&#x27;active&#x27;</span>);<br>                <span class="hljs-type">let</span> <span class="hljs-variable">case2</span> <span class="hljs-operator">=</span> document.getElementsByTagName(<span class="hljs-string">&quot;html&quot;</span>)[<span class="hljs-number">0</span>].scrollTop + above_h &gt; aim_top;<br>                <span class="hljs-keyword">if</span> (case1 &amp;&amp; case2) &#123;<br>                    offset = above_h;<br>                &#125;<br>                window.scrollTo(&#123;<br>                    top: aim_top - offset - below_h - <span class="hljs-number">10</span>,<br>                    behavior: <span class="hljs-string">&#x27;smooth&#x27;</span><br>                &#125;);<br>                setTimeout(() =&gt; &#123;<br>                    document.addEventListener(<span class="hljs-string">&quot;scroll&quot;</span>, autoActive);<br>                &#125;, <span class="hljs-number">500</span>);<br>            &#125;);<br>            <span class="hljs-keyword">if</span> (catalog.length)<br>                $(<span class="hljs-string">&#x27;.catalogue-item&#x27;</span>).eq(<span class="hljs-number">0</span>).addClass(<span class="hljs-string">&#x27;active&#x27;</span>);<br>            <span class="hljs-comment">// 目录侧标题自动定位</span><br>            <span class="hljs-type">let</span> <span class="hljs-variable">autoActive</span> <span class="hljs-operator">=</span> function () &#123;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">html_top</span> <span class="hljs-operator">=</span> document.getElementsByTagName(<span class="hljs-string">&quot;html&quot;</span>)[<span class="hljs-number">0</span>].scrollTop; <span class="hljs-comment">//获得父级卷去的高度</span><br>                <span class="hljs-keyword">for</span> (<span class="hljs-type">let</span> <span class="hljs-variable">i</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>; i &lt; catalog.length; i++) &#123;<br>                    <span class="hljs-type">let</span> <span class="hljs-variable">offset</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>;<br>                    <span class="hljs-type">let</span> <span class="hljs-variable">h_id</span> <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;#&#x27;</span> + catalog[i].id;<br>                    <span class="hljs-type">let</span> <span class="hljs-variable">h_offset</span> <span class="hljs-operator">=</span> document.querySelector(h_id).offsetTop;<br>                    <span class="hljs-type">let</span> <span class="hljs-variable">above_h</span> <span class="hljs-operator">=</span> document.querySelector(<span class="hljs-string">&#x27;.joe_header__above&#x27;</span>).clientHeight;<br>                    <span class="hljs-type">let</span> <span class="hljs-variable">below_h</span> <span class="hljs-operator">=</span> document.querySelector(<span class="hljs-string">&#x27;.joe_header__below&#x27;</span>).clientHeight;<br><br>                    <span class="hljs-keyword">if</span> (!document.querySelector(<span class="hljs-string">&#x27;.joe_header&#x27;</span>).className.includes(<span class="hljs-string">&#x27;active&#x27;</span>))<br>                        offset = above_h;<br>                    <span class="hljs-keyword">if</span> (h_offset + below_h + offset + <span class="hljs-number">10</span> &gt;= html_top) &#123;<br>                        $(<span class="hljs-string">&#x27;.catalogue-item&#x27;</span>).removeClass(<span class="hljs-string">&#x27;active&#x27;</span>);<br>                        <span class="hljs-keyword">if</span> (i &gt; <span class="hljs-number">0</span> &amp;&amp; i &lt; catalog.length - <span class="hljs-number">1</span> &amp;&amp; document.querySelector(<span class="hljs-string">&#x27;#&#x27;</span> + catalog[i].id).offsetTop &gt; html_top + window.innerHeight * <span class="hljs-number">0.2</span>) &#123;<br>                            <span class="hljs-comment">//还没到下一个标题</span><br>                            i--;<br>                        &#125;<br>                        $(<span class="hljs-string">&#x27;#to-&#x27;</span> + catalog[i].id).parent().addClass(<span class="hljs-string">&#x27;active&#x27;</span>);<br>                        <span class="hljs-keyword">break</span>;<br>                    &#125;<br>                &#125;<br>            &#125;;<br>            document.addEventListener(<span class="hljs-string">&quot;scroll&quot;</span>, autoActive);<br>        &#125;<br>    &#125; <span class="hljs-keyword">else</span> &#123;<br>        <span class="hljs-comment">// 不是文章，隐藏目录</span><br>        $(<span class="hljs-string">&#x27;.catalogue&#x27;</span>).hide();<br>    &#125;<br></code></pre></td></tr></table></figure>
+
+<p>‍</p>
+<p>在主题后台设置-全局设置-自定义css中：加入如下样式：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><code class="hljs java">.joe_aside__item.catalogue &#123;<br>    z-index: <span class="hljs-number">999</span>;<br>    position: sticky;<br>    top: 60px;<br>    margin-bottom: 15px;<br>    transition: top <span class="hljs-number">0.</span>35s;<br>    background: <span class="hljs-keyword">var</span>(--background)<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain &#123;<br>    padding: <span class="hljs-number">0</span>;<br>    margin: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> 10px;<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items &#123;<br>    border-left: 1px solid <span class="hljs-title function_">var</span><span class="hljs-params">(--classC)</span>;<br>    border-bottom: 1px solid <span class="hljs-title function_">var</span><span class="hljs-params">(--background)</span>;<br>    padding: 15px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item &#123;<br>    margin: <span class="hljs-number">0</span>;<br>    padding: <span class="hljs-number">0</span>;<br>    line-height: 26px;<br>    font-size: 16px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item a &#123;<br>    position: relative;<br>    display: block;<br>    line-height: 26px;<br>    color: <span class="hljs-keyword">var</span>(--main);<br>    transition: color <span class="hljs-number">0.</span>5s<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item a:hover &#123;<br>    color: <span class="hljs-keyword">var</span>(--theme)<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item._active &gt; a, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item.active &gt; a &#123;<br>    color: <span class="hljs-keyword">var</span>(--theme)<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item.active &gt; a::before &#123;<br>    content: <span class="hljs-string">&quot;&quot;</span>;<br>    position: absolute;<br>    left: -17px;<br>    top: <span class="hljs-number">0</span>;<br>    width: 2px;<br>    height: 26px;<br>    background-color: <span class="hljs-keyword">var</span>(--theme);<br>    transition: height <span class="hljs-number">0.</span>35s<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2.</span>catalogue-item, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item &#123;<br>    font-size: 14px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item.active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item.active &gt; a::before &#123;<br>    left: -34px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item &#123;<br>    font-size: 12px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item.active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item.active &gt; a::before &#123;<br>    left: -51px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item &#123;<br>    font-size: 12px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item ul &#123;<br>    padding-left: 17px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items ul &#123;<br>    display: block;<br>    list-style-type: disc<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>其实上述三步已经可以实现文章目录了，此时刷新页面，在右侧博主头像吓应该可以看到目录了。<br>但是上述直接添加可能会导致文章在滑动的时候，目录下面的其他内容卡片没有固定。<br>即在public&#x2F;aside.php文件中将作者卡片下面的其他卡片用section标签包裹起来，修改如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;section class=<span class="hljs-string">&quot;sticky_layout&quot;</span>&gt;<br>除作者卡片之外的卡片内容都包裹在这个标签当中<br>&lt;/section&gt;<br></code></pre></td></tr></table></figure>
+
+<p>然后再修改刚刚第三步的CSS：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br></pre></td><td class="code"><pre><code class="hljs java">section.sticky_layout &#123;<br>    position: sticky;<br>&#125;<br><br>.joe_aside__item.catalogue &#123;<br>    z-index: <span class="hljs-number">999</span>;<br>    margin-bottom: 15px;<br>    transition: top <span class="hljs-number">0.</span>35s;<br>    background: <span class="hljs-keyword">var</span>(--background)<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain &#123;<br>    padding: <span class="hljs-number">0</span>;<br>    margin: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> 10px;<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items &#123;<br>    border-left: 1px solid <span class="hljs-title function_">var</span><span class="hljs-params">(--classC)</span>;<br>    border-bottom: 1px solid <span class="hljs-title function_">var</span><span class="hljs-params">(--background)</span>;<br>    padding: 15px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item &#123;<br>    margin: <span class="hljs-number">0</span>;<br>    padding: <span class="hljs-number">0</span>;<br>    line-height: 26px;<br>    font-size: 16px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item a &#123;<br>    position: relative;<br>    display: block;<br>    line-height: 26px;<br>    color: <span class="hljs-keyword">var</span>(--main);<br>    transition: color <span class="hljs-number">0.</span>5s<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item a:hover &#123;<br>    color: <span class="hljs-keyword">var</span>(--theme)<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item._active &gt; a, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item.active &gt; a &#123;<br>    color: <span class="hljs-keyword">var</span>(--theme)<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item.active &gt; a::before &#123;<br>    content: <span class="hljs-string">&quot;&quot;</span>;<br>    position: absolute;<br>    left: -17px;<br>    top: <span class="hljs-number">0</span>;<br>    width: 2px;<br>    height: 26px;<br>    background-color: <span class="hljs-keyword">var</span>(--theme);<br>    transition: height <span class="hljs-number">0.</span>35s<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2.</span>catalogue-item, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item &#123;<br>    font-size: 14px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item.active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item.active &gt; a::before &#123;<br>    left: -34px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item &#123;<br>    font-size: 12px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">2</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item.active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item._active &gt; a::before, .joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item.active &gt; a::before &#123;<br>    left: -51px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item .level-<span class="hljs-number">3</span> .catalogue-item &#123;<br>    font-size: 12px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items .catalogue-item ul &#123;<br>    padding-left: 17px<br>&#125;<br><br>.joe_aside__item.catalogue .joe_aside__item-contain .catalogue-items ul &#123;<br>    display: block;<br>    list-style-type: disc<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>如果开启了舔狗卡片，则需要再修改一下，需要将assets&#x2F;js&#x2F;joe.global.js文件中的头部滚动部分的函数进行修改，替换成如下内容：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs java">&#123;<br>        <span class="hljs-keyword">if</span> (!window.Joe.IS_MOBILE) &#123;<br>            <span class="hljs-type">let</span> <span class="hljs-variable">flag</span> <span class="hljs-operator">=</span> <span class="hljs-literal">true</span>;<br>            <span class="hljs-type">const</span> <span class="hljs-variable">handleHeader</span> <span class="hljs-operator">=</span> (diffY) =&gt; &#123;<br>                <span class="hljs-keyword">if</span> (window.pageYOffset &gt;= $(<span class="hljs-string">&quot;.joe_header&quot;</span>).height() &amp;&amp; diffY &lt;= <span class="hljs-number">0</span>) &#123;<br>                    <span class="hljs-keyword">if</span> (flag) <span class="hljs-keyword">return</span>;<br>                    $(<span class="hljs-string">&quot;.joe_header&quot;</span>).addClass(<span class="hljs-string">&quot;active&quot;</span>);<br>                    $(<span class="hljs-string">&quot;.joe_aside .sticky_layout&quot;</span>).css(<span class="hljs-string">&quot;top&quot;</span>, $(<span class="hljs-string">&quot;.joe_header&quot;</span>).height() - <span class="hljs-number">60</span> + <span class="hljs-number">15</span>);<br>                    flag = <span class="hljs-literal">true</span>;<br>                &#125; <span class="hljs-keyword">else</span> &#123;<br>                    <span class="hljs-keyword">if</span> (!flag) <span class="hljs-keyword">return</span>;<br>                    $(<span class="hljs-string">&quot;.joe_header&quot;</span>).removeClass(<span class="hljs-string">&quot;active&quot;</span>);<br>                    $(<span class="hljs-string">&quot;.joe_aside .sticky_layout&quot;</span>).css(<span class="hljs-string">&quot;top&quot;</span>, $(<span class="hljs-string">&quot;.joe_header&quot;</span>).height() + <span class="hljs-number">15</span>);<br>                    flag = <span class="hljs-literal">false</span>;<br>                &#125;<br>            &#125;;<br>            <span class="hljs-type">let</span> <span class="hljs-variable">Y</span> <span class="hljs-operator">=</span> window.pageYOffset;<br>            handleHeader(Y);<br>            <span class="hljs-type">let</span> <span class="hljs-variable">_last</span> <span class="hljs-operator">=</span> Date.now();<br>            document.addEventListener(<span class="hljs-string">&quot;scroll&quot;</span>, () =&gt; &#123;<br>                <span class="hljs-type">let</span> <span class="hljs-variable">_now</span> <span class="hljs-operator">=</span> Date.now();<br>                <span class="hljs-keyword">if</span> (_now - _last &gt; <span class="hljs-number">15</span>) &#123;<br>                    handleHeader(Y - window.pageYOffset);<br>                    Y = window.pageYOffset;<br>                &#125;<br>                _last = _now;<br>            &#125;);<br>        &#125;<br>    &#125;<br></code></pre></td></tr></table></figure>
+
+<p>这第四步主要修改的内容是将原本的最后一个卡片不滚动，改成除了作者卡片其他不滚动，如果不介意滚动的话则不需要这一步，同时注意开始如果目录放置的地方不在头像卡片下方，则修改包裹在section标签的卡片内容也要一致。</p>
+<h3 id="底部页面加载耗时"><a href="#底部页面加载耗时" class="headerlink" title="底部页面加载耗时"></a>底部页面加载耗时</h3><p>页面加载耗时的功能和样式的实现<br>可以看到本博客底部页面的一些样式和功能，<br>样式的实现：可以去【 shields.io 】网站去自定义，种类很多，像ICP、版权信息等等。<br>功能的实现：找到usr&#x2F;themes&#x2F;Joe&#x2F;public目录下的footer.php第47行，加入以下代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">document.getElementById(<span class="hljs-string">&#x27;pagetimes&#x27;</span>).innerHTML = <span class="hljs-string">&#x27;&lt;img src=&quot;https://img.shields.io/badge/页面加载耗时：-&lt;?php _endCountTime(); ?&gt;-green&quot;&gt;&#x27;</span>;<br></code></pre></td></tr></table></figure>
+
+<p>_endCountTime()是获取页面耗时的函数；<br>pagetimes是前台标签的ID值，放到前台你想显示的位置即可。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;a href=<span class="hljs-string">&quot;javascript:(0)&quot;</span> id=<span class="hljs-string">&quot;pagetimes&quot;</span>&gt;&lt;/a&gt;<br></code></pre></td></tr></table></figure>
+
+<p>‍</p>
+<h3 id="给你的网站博客侧边栏添加一个联系我-关注我-个人信息"><a href="#给你的网站博客侧边栏添加一个联系我-关注我-个人信息" class="headerlink" title="给你的网站博客侧边栏添加一个联系我&#x2F;关注我&#x2F;个人信息"></a>给你的网站博客侧边栏添加一个联系我&#x2F;关注我&#x2F;个人信息</h3><p>‍</p>
+<ul>
+<li>方法一：</li>
+</ul>
+<p>下面的代码放到主题后台，侧边栏，自定义即可，相应信息改成你自己的哦。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;background: var(--background);&quot;</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;list-style: none; padding: 0; margin: 0;&quot;</span>&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;font-size: 12px; margin-bottom: 10px; background: #fff; color: #525252; line-height: 40px; border: 1px solid #DDD; border-radius: 2px; position: relative; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://tc.demius.tech/i/2024/10/04/66ffda4aa0a58.webp&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;width: 20px; height: 20px; vertical-align: middle;&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: right; text-align: center; width: 40%; -moz-transition: all.5s ease; -webkit-transition: all.5s ease; -ms-transition: all.5s ease; -o-transition: all.5s ease; transition: all.5s ease; transition: all 0.5s; animation: change 10s infinite;&quot;</span>&gt;</span>QQ 号<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>228209506<br>      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;font-size: 12px; margin-bottom: 10px; background: #fff; color: #525252; line-height: 40px; border: 1px solid #DDD; border-radius: 2px; position: relative; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://tc.demius.tech/i/2024/10/04/66ffda4b029f0.webp&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;width: 20px; height: 20px; vertical-align: middle;&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;float: right; text-align: center; width: 40%; -moz-transition: all.5s ease; -webkit-transition: all.5s ease; -ms-transition: all.5s ease; -o-transition: all.5s ease; transition: all.5s ease; transition: all 0.5s; animation: change 10s infinite;&quot;</span>&gt;</span>邮箱帐号<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>demius@foxmail.com<br>      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span><br>  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br><br>  <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css"></span><br><span class="language-css">    <span class="hljs-keyword">@keyframes</span> change &#123;</span><br><span class="language-css">      <span class="hljs-number">0%</span> &#123;</span><br><span class="language-css">        <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#5cb85c</span>;</span><br><span class="language-css">      &#125;</span><br><span class="language-css">      <span class="hljs-number">25%</span> &#123;</span><br><span class="language-css">        <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#556bd8</span>;</span><br><span class="language-css">      &#125;</span><br><span class="language-css">      <span class="hljs-number">50%</span> &#123;</span><br><span class="language-css">        <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e40707</span>;</span><br><span class="language-css">      &#125;</span><br><span class="language-css">      <span class="hljs-number">75%</span> &#123;</span><br><span class="language-css">        <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#66e616</span>;</span><br><span class="language-css">      &#125;</span><br><span class="language-css">      <span class="hljs-number">100%</span> &#123;</span><br><span class="language-css">        <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#67bd31</span>;</span><br><span class="language-css">      &#125;</span><br><span class="language-css"></span><br><span class="language-css">    <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">span</span> &#123;</span><br><span class="language-css">      <span class="hljs-attribute">display</span>: block;</span><br><span class="language-css">      <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;</span><br><span class="language-css">      <span class="hljs-attribute">line-height</span>: <span class="hljs-number">40px</span>;</span><br><span class="language-css">    &#125;</span><br><span class="language-css">  </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li>方法二</li>
+</ul>
+<p>位置：主题后台设置-侧栏设置-自定义侧栏模块</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;guanzhu&quot;</span>&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;sina&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://weibo.com/ftianxiang&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;external nofollow&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>新浪微博<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>哒哒哒哒<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;qq&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://wpa.qq.com/msgrd?v=3&amp;uin=1322360062&amp;site=qq&amp;menu=yes&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;external nofollow&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>QQ号<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>228209506<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;email&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=keX48P-p_PD-9r-39P-20eDgv-L_-A&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;external nofollow&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>邮箱帐号<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>demius@foxmail.com<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;wxgzh&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://www.xtboke.com/about.html&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span> &gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>微信号<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>XXXXXXXX<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>      <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span><br>    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br></code></pre></td></tr></table></figure>
+
+<p>位置：主题后台设置-全局设置-自定义CSS</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-comment">/*关注*/</span><br><span class="hljs-selector-class">.guanzhu</span>&#123;<span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--background);&#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-tag">ul</span> <span class="hljs-selector-tag">li</span> &#123; <span class="hljs-attribute">font-size</span>: <span class="hljs-number">12px</span>; <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">10px</span>; <span class="hljs-attribute">background</span>: <span class="hljs-number">#fff</span>; <span class="hljs-attribute">color</span>: <span class="hljs-number">#525252</span>; <span class="hljs-attribute">line-height</span>: <span class="hljs-number">40px</span>; <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">34px</span>; <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#DDD</span>; <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">2px</span>; <span class="hljs-attribute">position</span>: relative; <span class="hljs-attribute">text-overflow</span>: ellipsis; <span class="hljs-attribute">white-space</span>: nowrap; <span class="hljs-attribute">overflow</span>: hidden; &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.sina</span> &#123; <span class="hljs-attribute">border</span>: <span class="hljs-number">#ec3d51</span> <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">https://tc.demius.tech/i/2024/10/07/6703a2023c51e.webp</span>) no-repeat <span class="hljs-number">0</span> <span class="hljs-number">10px</span> <span class="hljs-number">#fff</span> &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.qq</span> &#123; <span class="hljs-attribute">border</span>: <span class="hljs-number">#2ab39a</span> <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">https://tc.demius.tech/i/2024/10/07/6703a2023c51e.webp</span>) no-repeat <span class="hljs-number">0</span> -<span class="hljs-number">98px</span>  <span class="hljs-number">#fff</span>&#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.email</span> &#123; <span class="hljs-attribute">border</span>: <span class="hljs-number">#12aae8</span> <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">https://tc.demius.tech/i/2024/10/07/6703a2023c51e.webp</span>) no-repeat <span class="hljs-number">0</span> -<span class="hljs-number">150px</span>  <span class="hljs-number">#fff</span>&#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.wxgzh</span> &#123; <span class="hljs-attribute">border</span>: <span class="hljs-number">#199872</span> <span class="hljs-number">1px</span> solid; <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">https://tc.demius.tech/i/2024/10/07/6703a2023c51e.webp</span>) no-repeat <span class="hljs-number">0</span> -<span class="hljs-number">200px</span>  <span class="hljs-number">#fff</span>&#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-tag">ul</span> <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">span</span> &#123; <span class="hljs-attribute">float</span>: right; <span class="hljs-attribute">text-align</span>: center; <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>; -moz-<span class="hljs-attribute">transition</span>: all .<span class="hljs-number">5s</span> ease; -webkit-<span class="hljs-attribute">transition</span>: all .<span class="hljs-number">5s</span> ease; -ms-<span class="hljs-attribute">transition</span>: all .<span class="hljs-number">5s</span> ease; -o-<span class="hljs-attribute">transition</span>: all .<span class="hljs-number">5s</span> ease; <span class="hljs-attribute">transition</span>: all .<span class="hljs-number">5s</span> ease; <span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.5s</span>; &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.sina</span> <span class="hljs-selector-tag">span</span> &#123; <span class="hljs-attribute">background</span>: <span class="hljs-number">#ec3d51</span>; &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.qq</span> <span class="hljs-selector-tag">span</span> &#123; <span class="hljs-attribute">background</span>: <span class="hljs-number">#2ab39a</span>; &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.email</span> <span class="hljs-selector-tag">span</span> &#123; <span class="hljs-attribute">background</span>: <span class="hljs-number">#12aae8</span>; &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-class">.wxgzh</span> <span class="hljs-selector-tag">span</span> &#123; <span class="hljs-attribute">background</span>: <span class="hljs-number">#199872</span>; &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-tag">a</span> <span class="hljs-selector-tag">span</span> &#123; <span class="hljs-attribute">color</span>: <span class="hljs-number">#FFF</span> &#125;<br><span class="hljs-selector-class">.guanzhu</span> <span class="hljs-selector-tag">ul</span> <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:hover</span> <span class="hljs-selector-tag">span</span> &#123; <span class="hljs-attribute">width</span>: <span class="hljs-number">120px</span>; &#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="侧边栏添加百度搜索框"><a href="#侧边栏添加百度搜索框" class="headerlink" title="侧边栏添加百度搜索框"></a>侧边栏添加百度搜索框</h3><p>位置：主题后台设置-侧栏设置-自定义侧栏模块</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;joe_aside__item qrcode&quot;</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;joe_aside__item-contain&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;padding-bottom: 10px;&quot;</span>&gt;</span><br>       <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;baidu-dwo&quot;</span>&gt;</span><br>          <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;baidu-dwo_form&quot;</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;https://www.baidu.com/s&quot;</span></span><br><span class="hljs-tag">              <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;GET&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span>&gt;</span><br>              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;baidu-dwo_input&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;wd&quot;</span></span><br><span class="hljs-tag">                  <span class="hljs-attr">validatetarget</span>=<span class="hljs-string">&quot;q&quot;</span></span><br><span class="hljs-tag">                  <span class="hljs-attr">validatetype</span>=<span class="hljs-string">&quot;must&quot;</span></span><br><span class="hljs-tag">                  <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;关键词：深秋&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;沈丘博客&quot;</span>&gt;</span><br>              <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;baidu-dwo_submit&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;搜索&quot;</span>&gt;</span><br>          <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span><br>       <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>  <br>    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span><br></code></pre></td></tr></table></figure>
+
+<p>位置：主题后台设置-全局设置-自定义CSS</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.baidu-dwo</span>&#123;<br>                <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;<br>                <span class="hljs-attribute">padding-bottom</span>: <span class="hljs-number">6px</span>;<br>            &#125;<br>            <span class="hljs-selector-class">.baidu-dwo_form</span>&#123;<br>                <span class="hljs-attribute">position</span>: relative;<br>                <span class="hljs-attribute">box-sizing</span>: border-box;<br>                <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-built_in">var</span>(--theme);<br>                <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">4px</span>; <br>                <span class="hljs-attribute">margin-bottom</span>:<span class="hljs-number">5px</span>;<br>                <span class="hljs-attribute">overflow</span>: hidden;<br>            &#125;<br>            <span class="hljs-selector-class">.baidu-dwo_input</span>&#123; <br>                <span class="hljs-attribute">border</span>: none;<br>                <span class="hljs-attribute">font-size</span>: <span class="hljs-number">16px</span><span class="hljs-meta">!important</span>;<br>                <span class="hljs-attribute">font-weight</span>: <span class="hljs-number">100</span><span class="hljs-meta">!important</span>;<br>                <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--main);<br>                <span class="hljs-attribute">outline</span>: none;<br>                <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0</span>; <br>                <span class="hljs-attribute">padding</span>: <span class="hljs-number">9px</span> <span class="hljs-number">8px</span>;<br>                <span class="hljs-attribute">margin-bottom</span>: -<span class="hljs-number">2px</span>;<br>                <span class="hljs-attribute">background-color</span>: transparent<span class="hljs-meta">!important</span>;<br>            &#125;<br>            <span class="hljs-selector-class">.baidu-dwo_input</span><span class="hljs-selector-pseudo">:focus</span>&#123;<br>                <span class="hljs-attribute">outline</span>: none;<br>            &#125;<br>            <span class="hljs-selector-class">.baidu-dwo_submit</span>&#123;<br>                <span class="hljs-attribute">position</span>: absolute;<br>                <span class="hljs-attribute">right</span>:<span class="hljs-number">2px</span> ;<br>                <span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;<br>                <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateY</span>(-<span class="hljs-number">50%</span>);<br>                <span class="hljs-attribute">box-sizing</span>: border-box;<br>                <span class="hljs-attribute">border</span>: none;<br>                <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">4px</span>;<br>                <span class="hljs-attribute">background-color</span>: <span class="hljs-built_in">var</span>(--theme);<br>                <span class="hljs-attribute">color</span>: <span class="hljs-number">#ffffff</span>;<br>                <span class="hljs-attribute">padding</span>: <span class="hljs-number">6px</span> <span class="hljs-number">8px</span>;<br>                <span class="hljs-attribute">cursor</span>: pointer;<br>            &#125;<br>            <span class="hljs-selector-class">.baidu-dwo_tip</span>&#123;<br>                <span class="hljs-attribute">font-size</span>: <span class="hljs-number">13px</span>;<br>                <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--minor);<br>            &#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="侧边栏增加广告位"><a href="#侧边栏增加广告位" class="headerlink" title="侧边栏增加广告位"></a>侧边栏增加广告位</h3><p>‍</p>
+<p>主题文件：public&#x2F;aside.php下，选择一个<code>&lt;?php endif; ?&gt;</code>​代码下方添加代码</p>
+<p>‍</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;!--新增侧边栏广告位--&gt;<br>  &lt;?php <span class="hljs-title function_">if</span> <span class="hljs-params">($<span class="hljs-built_in">this</span>-&gt;options-&gt;JADContent)</span> : ?&gt;<br>    &lt;a class=<span class="hljs-string">&quot;joe_aside__item advert&quot;</span> target=<span class="hljs-string">&quot;_blank&quot;</span> rel=<span class="hljs-string">&quot;noopener noreferrer nofollow&quot;</span> href=<span class="hljs-string">&quot;&lt;?php echo explode(&quot;</span>||<span class="hljs-string">&quot;, $this-&gt;options-&gt;JADContent)[1]; ?&gt;&quot;</span> title=<span class="hljs-string">&quot;深秋的广告栏&quot;</span>&gt;<br>        &lt;img class=<span class="hljs-string">&quot;lazyload&quot;</span> width=<span class="hljs-string">&quot;100%&quot;</span> src=<span class="hljs-string">&quot;&lt;?php _getLazyload() ?&gt;&quot;</span> data-src=<span class="hljs-string">&quot;&lt;?php echo explode(&quot;</span>||<span class="hljs-string">&quot;, $this-&gt;options-&gt;JADContent)[0]; ?&gt;&quot;</span> alt=<span class="hljs-string">&quot;深秋的广告栏&quot;</span> /&gt;<br>        &lt;span class=<span class="hljs-string">&quot;icon&quot;</span>&gt;深秋的广告栏&lt;/span&gt;<br>    &lt;/a&gt;<br>&lt;?php endif; ?&gt;<br><br>&lt;?php <span class="hljs-title function_">if</span> <span class="hljs-params">($<span class="hljs-built_in">this</span>-&gt;options-&gt;JADContent2)</span> : ?&gt;<br>    &lt;a class=<span class="hljs-string">&quot;joe_aside__item advert&quot;</span> target=<span class="hljs-string">&quot;_blank&quot;</span> rel=<span class="hljs-string">&quot;noopener noreferrer nofollow&quot;</span> href=<span class="hljs-string">&quot;&lt;?php echo explode(&quot;</span>||<span class="hljs-string">&quot;, $this-&gt;options-&gt;JADContent2)[1]; ?&gt;&quot;</span> title=<span class="hljs-string">&quot;深秋的广告栏2&quot;</span>&gt;<br>        &lt;img class=<span class="hljs-string">&quot;lazyload&quot;</span> width=<span class="hljs-string">&quot;100%&quot;</span> src=<span class="hljs-string">&quot;&lt;?php _getLazyload() ?&gt;&quot;</span> data-src=<span class="hljs-string">&quot;&lt;?php echo explode(&quot;</span>||<span class="hljs-string">&quot;, $this-&gt;options-&gt;JADContent2)[0]; ?&gt;&quot;</span> alt=<span class="hljs-string">&quot;深秋的广告栏2&quot;</span> /&gt;<br>        &lt;span class=<span class="hljs-string">&quot;icon&quot;</span>&gt;深秋的广告栏<span class="hljs-number">2</span>&lt;/span&gt;<br>    &lt;/a&gt;<br>&lt;?php endif; ?&gt;<br><br>&lt;?php <span class="hljs-title function_">if</span> <span class="hljs-params">($<span class="hljs-built_in">this</span>-&gt;options-&gt;JADContent3)</span> : ?&gt;<br>    &lt;a class=<span class="hljs-string">&quot;joe_aside__item advert&quot;</span> target=<span class="hljs-string">&quot;_blank&quot;</span> rel=<span class="hljs-string">&quot;noopener noreferrer nofollow&quot;</span> href=<span class="hljs-string">&quot;&lt;?php echo explode(&quot;</span>||<span class="hljs-string">&quot;, $this-&gt;options-&gt;JADContent3)[1]; ?&gt;&quot;</span> title=<span class="hljs-string">&quot;深秋的广告栏3&quot;</span>&gt;<br>        &lt;img class=<span class="hljs-string">&quot;lazyload&quot;</span> width=<span class="hljs-string">&quot;100%&quot;</span> src=<span class="hljs-string">&quot;&lt;?php _getLazyload() ?&gt;&quot;</span> data-src=<span class="hljs-string">&quot;&lt;?php echo explode(&quot;</span>||<span class="hljs-string">&quot;, $this-&gt;options-&gt;JADContent3)[0]; ?&gt;&quot;</span> alt=<span class="hljs-string">&quot;深秋的广告栏3&quot;</span> /&gt;<br>        &lt;span class=<span class="hljs-string">&quot;icon&quot;</span>&gt;深秋的广告栏<span class="hljs-number">3</span>&lt;/span&gt;<br>    &lt;/a&gt;<br>&lt;?php endif; ?&gt;<br></code></pre></td></tr></table></figure>
+
+<ul>
+<li>第二步</li>
+</ul>
+<p>在主题文件：Joe&#x2F;functions.php下，在</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs undefined">        其他：如果您有其他样式，可通过源代码修改此项，引入您的自定义样式链接&#x27;<br>);<br>$JPrismTheme-&gt;setAttribute(&#x27;class&#x27;,&#x27;joe_content joe_post&#x27;);<br>$form-&gt;addInput($JPrismTheme-&gt;multiMode());<br></code></pre></td></tr></table></figure>
+
+<p>这段代码的下方添加下面代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">// 现有的广告选项</span><br>$JADContent = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Typecho_Widget_Helper_Form_Element_Textarea</span>(<br>    <span class="hljs-string">&#x27;JADContent&#x27;</span>,<br>    NULL,<br>    NULL,<br>    <span class="hljs-string">&#x27;深秋-广告栏（侧） - PC&#x27;</span>,<br>    <span class="hljs-string">&#x27;介绍：用于设置深秋-广告栏（侧） &lt;br /&gt;</span><br><span class="hljs-string">         格式：广告图片 || 跳转链接 (中间使用两个竖杠分隔)&lt;br /&gt;</span><br><span class="hljs-string">         注意：如果您只想显示图片不想跳转，可填写：广告图片 || javascript:void(0)</span><br><span class="hljs-string">         PS：可填作者的，可填写：https://tc.demius.tech/i/2024/10/08/67055279a699c.webp || https://sq.demius.tech&#x27;</span><br>         );<br>$JADContent-&gt;setAttribute(<span class="hljs-string">&#x27;class&#x27;</span>, <span class="hljs-string">&#x27;joe_content joe_aside&#x27;</span>);<br>$form-&gt;addInput($JADContent);<br><br><span class="hljs-comment">// 新增的广告选项</span><br>$JADContent2 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Typecho_Widget_Helper_Form_Element_Textarea</span>(<br>    <span class="hljs-string">&#x27;JADContent2&#x27;</span>,<br>    NULL,<br>    NULL,<br>    <span class="hljs-string">&#x27;深秋-广告栏（侧）2 - PC&#x27;</span>,<br>    <span class="hljs-string">&#x27;介绍：用于设置深秋-广告栏（侧）2 &lt;br /&gt;</span><br><span class="hljs-string">         格式：广告图片 || 跳转链接 (中间使用两个竖杠分隔)&lt;br /&gt;</span><br><span class="hljs-string">         注意：如果您只想显示图片不想跳转，可填写：广告图片 || javascript:void(0)</span><br><span class="hljs-string">         PS：可填作者的，可填写：https://tc.demius.tech/i/2024/10/08/67055279a699c.webp || https://sq.demius.tech&#x27;</span><br>);<br>$JADContent2-&gt;setAttribute(<span class="hljs-string">&#x27;class&#x27;</span>, <span class="hljs-string">&#x27;joe_content joe_aside&#x27;</span>);<br>$form-&gt;addInput($JADContent2);<br><br>$JADContent3 = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Typecho_Widget_Helper_Form_Element_Textarea</span>(<br>    <span class="hljs-string">&#x27;JADContent3&#x27;</span>,<br>    NULL,<br>    NULL,<br>    <span class="hljs-string">&#x27;深秋-广告栏（侧）3 - PC&#x27;</span>,<br>    <span class="hljs-string">&#x27;介绍：用于设置深秋-广告栏（侧）3 &lt;br /&gt;</span><br><span class="hljs-string">         格式：广告图片 || 跳转链接 (中间使用两个竖杠分隔)&lt;br /&gt;</span><br><span class="hljs-string">         注意：如果您只想显示图片不想跳转，可填写：广告图片 || javascript:void(0)</span><br><span class="hljs-string">         PS：可填作者的，可填写：https://tc.demius.tech/i/2024/10/08/67055279a699c.webp || https://sq.demius.tech&#x27;</span><br>);<br>$JADContent3-&gt;setAttribute(<span class="hljs-string">&#x27;class&#x27;</span>, <span class="hljs-string">&#x27;joe_content joe_aside&#x27;</span>);<br>$form-&gt;addInput($JADContent3);<br></code></pre></td></tr></table></figure>
+
+<p><strong>注意</strong>：如果不想要更多的广告位，删除相应的代码片段就行，原主题已经自带了一个广告位，这里再次增加了三个，总共就是四个了哦。</p>
+<p>‍</p>
+<h3 id="给评论加一个一键打卡功能"><a href="#给评论加一个一键打卡功能" class="headerlink" title="给评论加一个一键打卡功能"></a>给评论加一个一键打卡功能</h3><p>‍</p>
+<p>找到 themes&#x2F;Joe&#x2F;public&#x2F;comment.php 的57行<br>​<code>&lt;div class=&quot;owo joe_owo__contain&quot;&gt;&lt;/div&gt;</code>​<br>在其下面一行添加：<br>​<code>&lt;div class=&quot;comment-clockIn&quot; onclick=&quot;javascript:clockIn()&quot;&gt;打卡&lt;/div&gt;</code>​</p>
+<p>在主题后台设置-全局设置-自定义CSS里添加：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">/*评论打卡*/</span><br>.joe_comment__respond-form .foot &#123;<br>    justify-content: flex-start!important<br>&#125;<br>.comment-clockIn &#123;<br>    text-align: center;<br>    color: #<span class="hljs-number">606266</span>;<br>    height: 26px;<br>    line-height: 26px;<br>    background: rgba(<span class="hljs-number">255</span>,<span class="hljs-number">255</span>,<span class="hljs-number">255</span>,<span class="hljs-number">0.7</span>);<br>    opacity: <span class="hljs-number">.85</span>;<br>    border-radius: 13px;<br>    width: 70px;<br>    margin-left: 5px;<br>    cursor: pointer<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>后台主题设置-全局设置-自定义JS中添加：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">/*评论打卡*/</span><br>function <span class="hljs-title function_">clockIn</span><span class="hljs-params">()</span> &#123;<br>    <span class="hljs-type">let</span> <span class="hljs-variable">time</span> <span class="hljs-operator">=</span> (<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>).toLocaleTimeString();<br>    <span class="hljs-type">let</span> <span class="hljs-variable">clockInCon</span> <span class="hljs-operator">=</span> <span class="hljs-string">&#x27;滴！贵宾卡！打卡时间：&#x27;</span> + time + <span class="hljs-string">&#x27;，请上车的乘客系好安全带~&#x27;</span>;<br>    $(<span class="hljs-string">&quot;.joe_owo__target&quot;</span>).val(clockInCon);<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="LOGO扫光效果"><a href="#LOGO扫光效果" class="headerlink" title="LOGO扫光效果"></a>LOGO扫光效果</h3><p>下载的文件上传到主题assets里css文件夹里：</p>
+<p><a target="_blank" rel="noopener" href="https://wwwc.lanzoue.com/iVrHs2c31hvc">logo扫光效果</a></p>
+<p>后台外观设置-全局设置-自定义css添加代码：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-comment">&lt;!-- 扫光引入开始 --&gt;</span><br><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;你的域名网址/usr/themes/这里也是按自己的填（joe|Joe-master）/assets/css/heylie.css&quot;</span>&gt;</span><br><span class="hljs-comment">&lt;!-- 扫光引入结束 --&gt;</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="实现Joe主题首页大图及文章大图设置"><a href="#实现Joe主题首页大图及文章大图设置" class="headerlink" title="实现Joe主题首页大图及文章大图设置"></a>实现Joe主题首页大图及文章大图设置</h3><p>‍</p>
+<ul>
+<li>第一步：引入CSS</li>
+</ul>
+<p>首先上传下载的css文件至网站目录（就是创建完网站的域名主目录）</p>
+<p><a target="_blank" rel="noopener" href="https://wwwc.lanzoue.com/iXYZ32c2sgxe">Joe首页大图</a></p>
+<p>然后在后台设置-全局设置-自定义<head></head>里放入</p>
+<p>​<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;你的域名/heylie.min.css&quot;&gt;</code>​</p>
+<ul>
+<li>第二步：首页大图</li>
+</ul>
+<p>修改 index.php 文件<br>文件目录 Joe主题文件&#x2F;index.php<br>大概第25行代码下方，即：<br>​<code>&lt;?php $this-&gt;need(&#39;public/header.php&#39;); ?&gt;</code>​ 这行代码下方放入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs undefined">&lt;div class=&quot;HeaderImg&quot; style=&quot;background: url(这里填写你的图片地址) center;background-size:cover;&quot;&gt;<br>                &lt;div class=&quot;infomation&quot;&gt;<br>                    &lt;div class=&quot;title&quot;&gt;&lt;?php $this-&gt;options-&gt;title(); ?&gt;&lt;/div&gt;<br>                    &lt;div class=&quot;desctitle&quot;&gt;<br>                        &lt;span class=&quot;motto joe_motto&quot;&lt;/span&gt;<br>                    &lt;/div&gt;<br>                &lt;/div&gt;<br>                &lt;section class=&quot;HeaderImg_bottom&quot;&gt;<br>                    &lt;svg class=&quot;waves-svg&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 24 150 28&quot; preserveAspectRatio=&quot;none&quot; shape-rendering=&quot;auto&quot;&gt;<br>                        &lt;defs&gt;<br>                            &lt;path id=&quot;gentle-wave&quot; d=&quot;M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z&quot;&gt;&lt;/path&gt;<br>                        &lt;/defs&gt;<br>                        &lt;g class=&quot;parallax&quot;&gt;<br>                            &lt;use xlink:href=&quot;#gentle-wave&quot; x=&quot;48&quot; y=&quot;0&quot;&gt;&lt;/use&gt;<br>                            &lt;use xlink:href=&quot;#gentle-wave&quot; x=&quot;48&quot; y=&quot;3&quot;&gt;&lt;/use&gt;<br>                            &lt;use xlink:href=&quot;#gentle-wave&quot; x=&quot;48&quot; y=&quot;5&quot;&gt;&lt;/use&gt;<br>                            &lt;use xlink:href=&quot;#gentle-wave&quot; x=&quot;48&quot; y=&quot;7&quot;&gt;&lt;/use&gt;<br>                        &lt;/g&gt;<br>                    &lt;/svg&gt;<br>                &lt;/section&gt;<br>            &lt;/div&gt;<br></code></pre></td></tr></table></figure>
+
+<ul>
+<li>第三步：文章顶部大图</li>
+</ul>
+<p>Joe&#x2F;post.php<br>大概21行<br>​<code>&lt;?php $this-&gt;need(&#39;public/header.php&#39;); ?&gt;</code>​ 下方放入代码</p>
+<figure class="highlight php-template"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><code class="hljs php-template"><span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;HeaderImg&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;background: url(</span></span></span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> <span class="hljs-title function_ invoke__">_getThumbnails</span>(<span class="hljs-variable">$this</span>)[<span class="hljs-number">0</span>] <span class="hljs-meta">?&gt;</span></span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">) center;background-size:cover;&quot;</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;infomation&quot;</span>&gt;</span></span><br><span class="language-xml">                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;title&quot;</span>&gt;</span></span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">title</span>() <span class="hljs-meta">?&gt;</span></span><span class="language-xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;desctitle&quot;</span>&gt;</span></span><br><span class="language-xml">                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;item&quot;</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text&quot;</span>&gt;</span></span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">date</span>(<span class="hljs-string">&#x27;Y-m-d&#x27;</span>); <span class="hljs-meta">?&gt;</span></span><span class="language-xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;line&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text&quot;</span>&gt;</span></span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">commentsNum</span>(<span class="hljs-string">&#x27;%d&#x27;</span>); <span class="hljs-meta">?&gt;</span></span><span class="language-xml"> 评论<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;line&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;Joe_Article_Views&quot;</span>&gt;</span></span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-title function_ invoke__">_getViews</span>(<span class="hljs-variable">$this</span>); <span class="hljs-meta">?&gt;</span></span><span class="language-xml"> 阅读<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;line&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;Joe_Article_Views&quot;</span>&gt;</span></span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-title function_ invoke__">_getAgree</span>(<span class="hljs-variable">$this</span>) <span class="hljs-meta">?&gt;</span></span><span class="language-xml"> 点赞<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;HeaderImg_bottom&quot;</span>&gt;</span></span><br><span class="language-xml">                    <span class="hljs-tag">&lt;<span class="hljs-name">svg</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;waves-svg&quot;</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.w3.org/2000/svg&quot;</span> <span class="hljs-attr">xmlns:xlink</span>=<span class="hljs-string">&quot;http://www.w3.org/1999/xlink&quot;</span> <span class="hljs-attr">viewBox</span>=<span class="hljs-string">&quot;0 24 150 28&quot;</span> <span class="hljs-attr">preserveAspectRatio</span>=<span class="hljs-string">&quot;none&quot;</span> <span class="hljs-attr">shape-rendering</span>=<span class="hljs-string">&quot;auto&quot;</span>&gt;</span></span><br><span class="language-xml">                        <span class="hljs-tag">&lt;<span class="hljs-name">defs</span>&gt;</span></span><br><span class="language-xml">                            <span class="hljs-tag">&lt;<span class="hljs-name">path</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;gentle-wave&quot;</span> <span class="hljs-attr">d</span>=<span class="hljs-string">&quot;M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">path</span>&gt;</span></span><br><span class="language-xml">                        <span class="hljs-tag">&lt;/<span class="hljs-name">defs</span>&gt;</span></span><br><span class="language-xml">                        <span class="hljs-tag">&lt;<span class="hljs-name">g</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;parallax&quot;</span>&gt;</span></span><br><span class="language-xml">                            <span class="hljs-tag">&lt;<span class="hljs-name">use</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">&quot;#gentle-wave&quot;</span> <span class="hljs-attr">x</span>=<span class="hljs-string">&quot;48&quot;</span> <span class="hljs-attr">y</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">use</span>&gt;</span></span><br><span class="language-xml">                            <span class="hljs-tag">&lt;<span class="hljs-name">use</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">&quot;#gentle-wave&quot;</span> <span class="hljs-attr">x</span>=<span class="hljs-string">&quot;48&quot;</span> <span class="hljs-attr">y</span>=<span class="hljs-string">&quot;3&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">use</span>&gt;</span></span><br><span class="language-xml">                            <span class="hljs-tag">&lt;<span class="hljs-name">use</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">&quot;#gentle-wave&quot;</span> <span class="hljs-attr">x</span>=<span class="hljs-string">&quot;48&quot;</span> <span class="hljs-attr">y</span>=<span class="hljs-string">&quot;5&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">use</span>&gt;</span></span><br><span class="language-xml">                            <span class="hljs-tag">&lt;<span class="hljs-name">use</span> <span class="hljs-attr">xlink:href</span>=<span class="hljs-string">&quot;#gentle-wave&quot;</span> <span class="hljs-attr">x</span>=<span class="hljs-string">&quot;48&quot;</span> <span class="hljs-attr">y</span>=<span class="hljs-string">&quot;7&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">use</span>&gt;</span></span><br><span class="language-xml">                        <span class="hljs-tag">&lt;/<span class="hljs-name">g</span>&gt;</span></span><br><span class="language-xml">                    <span class="hljs-tag">&lt;/<span class="hljs-name">svg</span>&gt;</span></span><br><span class="language-xml">                <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml"></span><br></code></pre></td></tr></table></figure>
+
+<p>‍</p>
+<p>默认文章自带，可以自行更换图库<br>方法：将代码中 <?php echo _getThumbnails($this)[0] ?> 换成自己的图片地址即可  </p>
+<p>‍</p>
+<h3 id="给Jeo博客主题的友链界面新增一个同意勾选"><a href="#给Jeo博客主题的友链界面新增一个同意勾选" class="headerlink" title="给Jeo博客主题的友链界面新增一个同意勾选"></a>给Jeo博客主题的友链界面新增一个同意勾选</h3><p>‍</p>
+<p>找到主题文件夹下friends.php<br>从 开始位置选中到 <?php $this->need('public/article.php'); ?><br>然后复制下面的代码覆盖：</p>
+<p><strong>HTML</strong></p>
+<figure class="highlight php-template"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><code class="hljs php-template"><span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;Joe&quot;</span>&gt;</span></span><br><span class="language-xml">    </span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">need</span>(<span class="hljs-string">&#x27;public/header.php&#x27;</span>); <span class="hljs-meta">?&gt;</span></span><span class="language-xml"></span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;joe_container&quot;</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;joe_main&quot;</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;joe_detail&quot;</span> <span class="hljs-attr">data-cid</span>=<span class="hljs-string">&quot;</span></span></span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-keyword">echo</span> <span class="hljs-variable language_">$this</span>-&gt;cid <span class="hljs-meta">?&gt;</span></span><span class="language-xml"><span class="hljs-tag"><span class="hljs-string">&quot;</span>&gt;</span></span><br><span class="language-xml">          </span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">need</span>(<span class="hljs-string">&#x27;public/batten.php&#x27;</span>); <span class="hljs-meta">?&gt;</span></span><span class="language-xml"></span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;form-container&quot;</span>&gt;</span></span><br><span class="language-xml">  <span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;conditionsForm&quot;</span>&gt;</span></span><br><span class="language-xml">       <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;center-text&quot;</span>&gt;</span>请勾选你符合的条件：<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;condition[]&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;added_friend_link&quot;</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>我已添加 沈丘 博客的友情链接<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml"></span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;condition[]&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;personal_blog&quot;</span>&gt;</span> </span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>我的链接主体为 个人，网站类型为博客<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml"></span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;condition[]&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;accessible_in_cn&quot;</span>&gt;</span> </span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>我的网站现在可以在中国大陆区域正常访问<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml">  </span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;condition[]&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;accessible_fl&quot;</span>&gt;</span> </span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>我接受并同意本站相关规则及政策<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml"></span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;condition[]&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;compliant_laws&quot;</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>网站内容符合中国大陆法律法规<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;instructions&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;hidden&quot;</span>&gt;</span>勾选后展示评论区发送申请<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span><br><span class="language-xml">  <span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></span><br><span class="language-xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">          </span><span class="language-php"><span class="hljs-meta">&lt;?php</span> <span class="hljs-variable language_">$this</span>-&gt;<span class="hljs-title function_ invoke__">need</span>(<span class="hljs-string">&#x27;public/article.php&#x27;</span>); <span class="hljs-meta">?&gt;</span></span><span class="language-xml"></span><br><span class="language-xml"></span><br><span class="language-xml"></span><br></code></pre></td></tr></table></figure>
+
+<p><strong>CSS</strong></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-comment">/* BLOG.HEYLIE.CN基础样式 */</span></span><br><span class="language-css">                        <span class="hljs-selector-tag">body</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">position</span>: relative;</span><br><span class="language-css">                            <span class="hljs-attribute">min-height</span>: <span class="hljs-number">100%</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">background</span>: <span class="hljs-built_in">var</span>(--heo-background);</span><br><span class="language-css">                            <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--heo-fontcolor);</span><br><span class="language-css">                            <span class="hljs-attribute">font-size</span>: <span class="hljs-number">16px</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">font-family</span>: <span class="hljs-string">&quot;PingFang SC&quot;</span>, <span class="hljs-string">&quot;Hiragino Sans GB&quot;</span>, <span class="hljs-string">&quot;Microsoft YaHei&quot;</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">line-height</span>: <span class="hljs-number">2</span>;</span><br><span class="language-css">                            -webkit-tap-highlight-<span class="hljs-attribute">color</span>: transparent;</span><br><span class="language-css">                            <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span></span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-class">.form-container</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">max-width</span>: <span class="hljs-number">800px</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">margin</span>: auto;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-class">.center-text</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">text-align</span>: center;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-id">#conditionsForm</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">20px</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">font-size</span>: <span class="hljs-number">16px</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#ccc</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">padding</span>: <span class="hljs-number">15px</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#f9f9f9</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">5px</span>;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-id">#conditionsForm</span> <span class="hljs-selector-tag">label</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">display</span>: block;</span><br><span class="language-css">                            <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">10px</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">cursor</span>: pointer;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-id">#conditionsForm</span> <span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">&quot;checkbox&quot;</span>]</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">8px</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">vertical-align</span>: middle;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-id">#conditionsForm</span> <span class="hljs-selector-tag">input</span><span class="hljs-selector-attr">[type=<span class="hljs-string">&quot;checkbox&quot;</span>]</span><span class="hljs-selector-pseudo">:checked</span>+<span class="hljs-selector-tag">span</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">color</span>: green;</span><br><span class="language-css">                            <span class="hljs-attribute">font-weight</span>: bold;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-id">#conditionsForm</span> <span class="hljs-selector-tag">label</span><span class="hljs-selector-pseudo">:hover</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">padding-left</span>: <span class="hljs-number">5px</span>;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-id">#instructions</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">text-align</span>: center;</span><br><span class="language-css">                            <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0.5</span>;</span><br><span class="language-css">                            <span class="hljs-comment">/* 默认透明度为0.5 */</span></span><br><span class="language-css">                            <span class="hljs-attribute">transition</span>: opacity <span class="hljs-number">0.3s</span> ease-in-out;</span><br><span class="language-css">                        &#125;</span><br><span class="language-css"></span><br><span class="language-css">                        <span class="hljs-selector-class">.hidden</span> &#123;</span><br><span class="language-css">                            <span class="hljs-attribute">opacity</span>: <span class="hljs-number">0</span>;</span><br><span class="language-css">                            <span class="hljs-attribute">pointer-events</span>: none;</span><br><span class="language-css">                            <span class="hljs-comment">/* 阻止鼠标事件 */</span></span><br><span class="language-css">                        &#125;</span><br><span class="language-css">                    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span><br><br></code></pre></td></tr></table></figure>
+
+<p>‍</p>
+<p><strong>JS</strong></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="language-javascript"></span><br><span class="language-javascript">                        <span class="hljs-comment">// 监听所有复选框的变化</span></span><br><span class="language-javascript">                        <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">querySelectorAll</span>(<span class="hljs-string">&#x27;#conditionsForm input[type=&quot;checkbox&quot;]&#x27;</span>).<span class="hljs-title function_">forEach</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">checkbox</span>) &#123;</span><br><span class="language-javascript">                            checkbox.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;change&#x27;</span>, checkConditions);</span><br><span class="language-javascript">                        &#125;);</span><br><span class="language-javascript"></span><br><span class="language-javascript">                        <span class="hljs-keyword">function</span> <span class="hljs-title function_">checkConditions</span>(<span class="hljs-params"></span>) &#123;</span><br><span class="language-javascript">                            <span class="hljs-comment">// 获取所有的条件复选框</span></span><br><span class="language-javascript">                            <span class="hljs-keyword">var</span> conditions = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementsByName</span>(<span class="hljs-string">&#x27;condition[]&#x27;</span>);</span><br><span class="language-javascript">                            <span class="hljs-keyword">var</span> allChecked = <span class="hljs-literal">true</span>;</span><br><span class="language-javascript"></span><br><span class="language-javascript">                            <span class="hljs-comment">// 检查是否有未选中的复选框</span></span><br><span class="language-javascript">                            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; conditions.<span class="hljs-property">length</span>; i++) &#123;</span><br><span class="language-javascript">                                <span class="hljs-keyword">if</span> (!conditions[i].<span class="hljs-property">checked</span>) &#123;</span><br><span class="language-javascript">                                    allChecked = <span class="hljs-literal">false</span>;</span><br><span class="language-javascript">                                    <span class="hljs-keyword">break</span>;</span><br><span class="language-javascript">                                &#125;</span><br><span class="language-javascript">                            &#125;</span><br><span class="language-javascript"></span><br><span class="language-javascript">                            <span class="hljs-comment">// 根据复选框的状态显示或隐藏评论区</span></span><br><span class="language-javascript">                            <span class="hljs-keyword">var</span> commentsSection = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">&#x27;comments&#x27;</span>);</span><br><span class="language-javascript">                            commentsSection.<span class="hljs-property">style</span>.<span class="hljs-property">display</span> = allChecked ? <span class="hljs-string">&#x27;block&#x27;</span> : <span class="hljs-string">&#x27;none&#x27;</span>;</span><br><span class="language-javascript">                        &#125;</span><br><span class="language-javascript">                    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span><br><br></code></pre></td></tr></table></figure>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E4%B8%BB%E9%A2%98%E5%92%8C%E7%BE%8E%E5%8C%96/" class="category-chain-item">主题和美化</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/typecho/" class="print-no-link">#typecho</a>
+      
+        <a href="/tags/Joe/" class="print-no-link">#Joe</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Typecho 系统的 Joe 主题美化</div>
+      <div>http://example.com/2024/10/30/Typecho 系统的 Joe 主题美化/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>猫子戏</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年10月30日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/10/30/WordPress%E5%B9%B3%E5%8F%B0%E5%92%8CTypecho%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2%E7%BD%91%E7%AB%99/" title="WordPress平台和Typecho平台部署网站">
+                        <span class="hidden-mobile">WordPress平台和Typecho平台部署网站</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
